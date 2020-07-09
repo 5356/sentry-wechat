@@ -3,7 +3,7 @@ sentry-wechat
 
 Install sentry plugins
 
-pip install git+https://github.com/6356/sentry-wechat.git
+pip install git+https://github.com/5356/sentry-wechat.git
  
 Sentry sending Wetchat.
 
