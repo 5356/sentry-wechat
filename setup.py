@@ -37,7 +37,7 @@ setup(
     ],
     entry_points={
         'sentry.plugins': [
-            'wechat_prod = sentry_wechat.plugin:WechatProdPlugin'
+            'wechat_prod = sentry_wechat_prod.plugin:WechatProdPlugin'
         ]
     },
     classifiers=[
