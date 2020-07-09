@@ -53,7 +53,7 @@ class WechatForm(notify.NotificationConfigurationForm):
         return validate_urls(value)
 
  
-class WechatPlugin(notify.NotificationPlugin):
+class WechatProdPlugin(notify.NotificationPlugin):
     """
     Sentry plugin to send error counts to Wechat.
     """
