@@ -58,17 +58,17 @@ class WechatPlugin(notify.NotificationPlugin):
     Sentry plugin to send error counts to Wechat.
     """
     author = 'jerry hu'
-    author_url = 'https://github.com/jerryhu1234/sentry-wechat'
+    author_url = 'https://github.com/5356/sentry-wechat'
     version = sentry_wechat.VERSION
     description = "Integrates wechat robot."
     resource_links = [
-        ('Bug Tracker', 'https://github.com/jerryhu1234/sentry-wechat/issues'),
-        ('Source', 'https://github.com/jerryhu1234/sentry-wechat'),
-        ('README', 'https://github.com/jerryhu1234/sentry-wechat/blob/master/README.md'),
+        ('Bug Tracker', 'https://github.com/5356/sentry-wechat/issues'),
+        ('Source', 'https://github.com/5356/sentry-wechat'),
+        ('README', 'https://github.com/5356/sentry-wechat/blob/master/README.md'),
     ]
 
-    slug = 'Wechat'
-    title = 'Wechat'
+    slug = 'Wechat-prod'
+    title = 'Wechat-prod'
     conf_title = title
     conf_key = slug
 
