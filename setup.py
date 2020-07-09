@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-sentry-Wetchat
+sentry-Wetchat-prod
 ==============
 
 An extension for Sentry which integrates with qy-Wetchat. It will send
@@ -17,11 +17,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="sentry-wechat",
-    version='0.1.1',
+    name="sentry-wechat-prod",
+    version='0.1.2',
     author='jerry hu',
     author_email='jerryhu_123@163.com',
-    url='https://github.com/jerryhu1234/sentry-wechat',
+    url='https://github.com/5356/sentry-wechat',
     description='A Sentry extension which integrates with Wechat robot.',
     long_description=long_description,
     long_description_content_type="text/markdown",
