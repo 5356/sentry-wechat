@@ -74,8 +74,8 @@ class WechatProdPlugin(notify.NotificationPlugin):
 
     project_conf_form = WechatForm
     timeout = getattr(settings, 'SENTRY_WECHAT_TIMEOUT', 3)
-    logger = logging.getLogger('sentry.plugins.wechat_prod')
-    user_agent = "sentry_wechat_prod/%s" % version
+    logger = logging.getLogger('sentry.plugins.wechat')
+    user_agent = "sentry-wechat/%s" % version
 
     def is_configured(self, project):
         """

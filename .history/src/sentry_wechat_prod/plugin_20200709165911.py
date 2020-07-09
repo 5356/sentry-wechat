@@ -59,12 +59,12 @@ class WechatProdPlugin(notify.NotificationPlugin):
     """
     author = 'jerry hu'
     author_url = 'https://github.com/5356/sentry-wechat-prod'
-    version = sentry_wechat_prod.VERSION
+    version = sentry_wechat.VERSION
     description = "Integrates wechat robot."
     resource_links = [
         ('Bug Tracker', 'https://github.com/5356/sentry-wechat-prod/issues'),
         ('Source', 'https://github.com/5356/sentry-wechat-prod'),
-        ('README', 'hhttps://github.com/5356/sentry-wechat-prod/blob/master/README.md'),
+        ('README', 'https://github.com/5356/sentry-wechat/blob/master/README.md'),
     ]
 
     slug = 'Wechat-prod'
@@ -74,8 +74,8 @@ class WechatProdPlugin(notify.NotificationPlugin):
 
     project_conf_form = WechatForm
     timeout = getattr(settings, 'SENTRY_WECHAT_TIMEOUT', 3)
-    logger = logging.getLogger('sentry.plugins.wechat_prod')
-    user_agent = "sentry_wechat_prod/%s" % version
+    logger = logging.getLogger('sentry.plugins.wechat')
+    user_agent = "sentry-wechat/%s" % version
 
     def is_configured(self, project):
         """
