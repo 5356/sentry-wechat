@@ -21,7 +21,7 @@ setup(
     version='0.1.2',
     author='jerry hu',
     author_email='jerryhu_123@163.com',
-    url='https://github.com/5356/sentry-wechat',
+    url='https://github.com/5356/sentry-wechat-prod',
     description='A Sentry extension which integrates with Wechat robot.',
     long_description=long_description,
     long_description_content_type="text/markdown",
